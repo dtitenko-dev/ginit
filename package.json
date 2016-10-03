@@ -1,0 +1,27 @@
+{
+	"name": "ginit",
+	"version": "1.0.0",
+	"description": "git init cli app",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"ginit": "./index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^1.1.3",
+		"clear": "0.0.1",
+		"clui": "^0.3.1",
+		"figlet": "^1.2.0",
+		"github": "^3.1.1",
+		"inquirer": "^1.1.3",
+		"lodash": "^4.16.2",
+		"minimist": "^1.2.0",
+		"preferences": "^0.2.1",
+		"simple-git": "^1.51.0",
+		"touch": "^1.0.0"
+	}
+}
